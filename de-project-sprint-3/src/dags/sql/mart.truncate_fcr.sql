@@ -1,0 +1,1 @@
+TRUNCATE mart.f_customer_retention;
