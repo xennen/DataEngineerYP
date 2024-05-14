@@ -1,6 +1,11 @@
-# Проектная работа по организации Data Lake
+# **Проектная работа по организации Data Lake**
 
-## Задачи проекта
+![Apache Spark](https://img.shields.io/badge/-Apache_Spark-red)
+![HDFS](https://img.shields.io/badge/-HDFS-yellow)
+![MapReduce](https://img.shields.io/badge/-MapReduce-black)
+![Hadoop](https://img.shields.io/badge/-Hadoop-orange)
+
+### **Задачи проекта**
 
 1. Обновить структуру Data Lake.
 2. Создать витрину в разрезе пользователей.
@@ -8,19 +13,16 @@
 4. Построить витрину для рекомендации друзей.
 5. Автоматизировать обновление витрин.
 
-## Используемые инструменты
+### **Используемые инструменты**
 
-- Apache Spark
-- HDFS
-- MapReduce
-- Hadoop
+- **`Apache Spark`**
+- **`HDFS`**
+- **`MapReduce`**
+- **`Hadoop`**
 
-![Apache Spark](https://img.shields.io/badge/-Apache_Spark-red)
-![HDFS](https://img.shields.io/badge/-HDFS-yellow)
-![MapReduce](https://img.shields.io/badge/-MapReduce-black)
-![Hadoop](https://img.shields.io/badge/-Hadoop-orange)
 
-## Структура репозитория
 
-- /src/dags - DAG для выполнения spark джобы.
-- /src/scripts - spark джоба.
+### **Структура репозитория**
+
+- `/src/dags` - DAG для выполнения spark джобы.
+- `/src/scripts` - spark джоба.

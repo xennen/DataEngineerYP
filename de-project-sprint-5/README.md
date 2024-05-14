@@ -1,11 +1,18 @@
-# DWH для нескольких источников и витриной. Витрина данных помогает при расчете платежей курьерам
+# **DWH для нескольких источников и витриной. Витрина данных помогает при расчете платежей курьерам**
 
-## Задача проекта
+![Python](https://img.shields.io/badge/-Python-blue)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-salad)
+![MongoDB](https://img.shields.io/badge/-MongoDB-yellow)
+![Airflow](https://img.shields.io/badge/-Airflow-orange)
+![REST-API](https://img.shields.io/badge/-REST_API-white)
+![ETL](https://img.shields.io/badge/-ETL-green)
+
+### **Задача проекта**
 
 Реализовать витрину для расчётов с курьерами. 
 В ней необходимо рассчитать суммы оплаты каждому курьеру за предыдущий месяц.
 
-## Описание задачи
+### **Описание задачи**
 
 Построить витрину, содержащую информацию о выплатах курьерам.
 
@@ -42,38 +49,30 @@
 Тогда начисление курьеру относите к дате заказа, а не доставки.
 
 
-## Выполненная работа
+### **Выполненная работа**
 1. Доработаны модели слоев DWH с учетом требований и нового источника.
 2. Реализован дополнительный репозиторий для загрузки данных из API системы доставки.
 3. Доработаны скрипты DAG Airflow для получения и обработки данных из системы доставки.
 4. Реализован SQL скрипт сбора данных из DDS слоя в таблицу витрины слоя.
 
 
-## Использованные технологии:
+### **Использованные технологии:**
 
-- Python
-- PostgreSQL
-- MongoDB
-- Apache Airflow
-- REST API
-- ETL
+- **`Python`**
+- **`PostgreSQL`**
+- **`MongoDB`**
+- **`Apache Airflow`**
+- **`REST API`**
+- **`ETL`**
 
-![Python](https://img.shields.io/badge/-Python-blue)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-salad)
-![MongoDB](https://img.shields.io/badge/-MongoDB-yellow)
-![Airflow](https://img.shields.io/badge/-Airflow-orange)
-![REST-API](https://img.shields.io/badge/-REST_API-white)
-![ETL](https://img.shields.io/badge/-ETL-green)
+### **Структура репозитория**
 
+- `/src/dags/init_schema_dag` - DAG и дополнительные SQL и Python скрипты для создания нужных таблиц в DWH.
+- `/src/dags/lib` - Дополнительные библиотеки и подключения.
+- `/src/dags/stg` - DAG-и и остальные скрипты для ежедневного заполнения staging-слоя в DWH.
+- `/src/dags/dds` - DAG-и и остальные скрипты для ежедневного заполнения dds-слоя в DWH.
+- `/src/dags/cdm` - DAG-и и остальные скрипты для ежедневного обновления витрин.
 
-## Структура репозитория
-
-- /src/dags/init_schema_dag - DAG и дополнительные SQL и Python скрипты для создания нужных таблиц в DWH.
-- /src/dags/lib - Дополнительные библиотеки и подключения.
-- /src/dags/stg - DAG-и и остальные скрипты для ежедневного заполнения staging-слоя в DWH.
-- /src/dags/dds - DAG-и и остальные скрипты для ежедневного заполнения dds-слоя в DWH.
-- /src/dags/cdm - DAG-и и остальные скрипты для ежедневного обновления витрин.
-
-## Архитектура решения
+### **Архитектура решения**
 
 ![Архитектура решения](img/image.png)
