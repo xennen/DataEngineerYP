@@ -6,7 +6,19 @@
 3. Перезапустить пайплайн и убедиться, что после перезапуска не появилось дубликатов в витринах.
 
 ### Используемые инструменты
-Python, Airflow, S3, PostgreSQL, REST-API
+
+- Python
+- Apache Airflow
+- S3
+- PostgreSQL
+- REST API
+
+![Python](https://img.shields.io/badge/-Python-blue)
+![Airflow](https://img.shields.io/badge/-Airflow-orange)
+![S3](https://img.shields.io/badge/-S3-orange)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-salad)
+![REST-API](https://img.shields.io/badge/-REST_API-white)
+
 
 ### Структура репозитория
 

@@ -55,9 +55,18 @@
 - PostgreSQL
 - MongoDB
 - Apache Airflow
+- REST API
 - ETL
 
-### Структура репозитория
+![Python](https://img.shields.io/badge/-Python-blue)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-salad)
+![MongoDB](https://img.shields.io/badge/-MongoDB-yellow)
+![Airflow](https://img.shields.io/badge/-Airflow-orange)
+![REST-API](https://img.shields.io/badge/-REST_API-white)
+![ETL](https://img.shields.io/badge/-ETL-green)
+
+
+## Структура репозитория
 
 - /src/dags/init_schema_dag - DAG и дополнительные SQL и Python скрипты для создания нужных таблиц в DWH.
 - /src/dags/lib - Дополнительные библиотеки и подключения.

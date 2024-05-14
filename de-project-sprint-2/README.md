@@ -5,4 +5,9 @@
 2. Создать удобное представление данных на основе новых логических таблиц.
 
 ### Используемые инструменты
-PostgreSQL, SQL
+
+- PostgreSQL
+- SQL
+
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-salad)
+![SQL](https://img.shields.io/badge/-SQL-pink)

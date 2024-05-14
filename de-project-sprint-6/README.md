@@ -24,13 +24,20 @@
 ## Использованные технологии:
 
 - Apache Airflow
-- Data Vault
 - S3
 - Vertica
 - Python
 - ETL
+- Data Vault
 
-### Структура репозитория
+![Airflow](https://img.shields.io/badge/-Airflow-orange)
+![S3](https://img.shields.io/badge/-S3-orange)
+![Vertica](https://img.shields.io/badge/-Vertica-grey)
+![Python](https://img.shields.io/badge/-Python-blue)
+![ETL](https://img.shields.io/badge/-ETL-green)
+![Data_Vault](https://img.shields.io/badge/-Data_Vault-salad)
+
+## Структура репозитория
 
 - /src/dags - DAG для реализации ETL из S3 в Vertica.
 - /src/dags/sql - SQL-скрипты для DAG-а.
