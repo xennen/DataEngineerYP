@@ -8,3 +8,9 @@
 ### Используемые инструменты
 
 Yandex Cloud, Kubernetes, Redis, PostgreSQL, Docker, Python, Kafka, SQL
+
+### Структура репозитория
+
+- /solution/service_stg - микросервис для создания, заполнения stg-слоя DWH и отправки данных в топик для service_dds.
+- /solution/service_dds - микросервис для создания, заполнения dds-слоя, обработки данных и отправки данных в топик для service_cdm.
+- /solution/service_cdm - микросервис для создания и заполнения нужных витрин.

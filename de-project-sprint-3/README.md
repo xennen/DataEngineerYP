@@ -8,4 +8,9 @@
 ### Используемые инструменты
 Python, Airflow, S3, PostgreSQL, REST-API
 
+### Структура репозитория
+
+- /src/dags - DAG, с помощью которого реализован ETL.
+- /src/dags/sql - SQL-скрипты.
+
 

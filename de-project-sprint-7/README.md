@@ -11,3 +11,9 @@
 ### Используемые инструменты
 
 Hadoop, MapReduce, HDFS, Apache Spark
+
+
+### Структура репозитория
+
+- /src/dags - DAG для выполнения spark джобы.
+- /src/scripts - spark джоба.

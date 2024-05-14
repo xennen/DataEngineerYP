@@ -29,3 +29,10 @@
 - Vertica
 - Python
 - ETL
+
+### Структура репозитория
+
+- /src/dags - DAG для реализации ETL из S3 в Vertica.
+- /src/dags/sql - SQL-скрипты для DAG-а.
+- /src/sql - SQL-скрипты для создания нужных таблиц в Data Vault.
+- /src/data - csv файлы которые мы получаем из S3.

@@ -13,3 +13,6 @@
 ### Используемые инструменты
 Kafka, Spark Streaming, PySpark, PostgreSQL, Python
 
+### Структура репозитория
+
+- /src/scripts - spark скрипт для чтения данных из топика kafka, отправки в PostgreSQL и другой топик.
