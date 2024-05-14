@@ -1,4 +1,4 @@
-# **Проектная работа по аналитическим базам данных**
+# **Поиск сообществ с высокой конверсией в первое сообщение**
 
 ![Airflow](https://img.shields.io/badge/-Airflow-orange)
 ![S3](https://img.shields.io/badge/-S3-orange)

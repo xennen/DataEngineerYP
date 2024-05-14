@@ -1,4 +1,4 @@
-# **Проектная работа по организации Data Lake**
+# **Обновление хранилища данных для соцсети**
 
 ![Apache Spark](https://img.shields.io/badge/-Apache_Spark-red)
 ![HDFS](https://img.shields.io/badge/-HDFS-yellow)
