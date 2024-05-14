@@ -1,4 +1,4 @@
-# **DWH для нескольких источников и витриной. Витрина данных помогает при расчете платежей курьерам**
+# **DWH для нескольких источников и витриной для расчетов с курьерами**
 
 ![Python](https://img.shields.io/badge/-Python-blue)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-salad)
